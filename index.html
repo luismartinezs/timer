@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <!-- https://cdnjs.com/libraries/normalize -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css" />
     <title>bang bang timer</title>
   </head>
   <body>
-    <div id="daysCounting">
-      <p>
-        <span id="daysLeft"></span>
-        <span id="daysText"> Days</span>
-      </p>
-
-    </div>
-    <div id="timer">
-
-    </div>
+    <p id="daysCounting">
+      <span id="daysLeft"></span>
+      <span id="daysText"> Days</span>
+    </p>
+    <div id="timer"></div>
 
     <script src="timer.js"></script>
   </body>

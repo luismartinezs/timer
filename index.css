@@ -1,8 +1,13 @@
 body {
   font-family: helvetica;
   background-color: #1b1b1b;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
-  padding-top: 150px;
 }
 #timer {
   color: white;
@@ -13,7 +18,7 @@ body {
   font-size: 78px;
 }
 #daysText {
-  color: #1b1b1b ;
+  color: #1b1b1b;
   background-color: #ffa500;
   border-radius: 8px;
   padding: 5px;
